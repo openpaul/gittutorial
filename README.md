@@ -67,6 +67,24 @@ git push
 ```
 
 
+
+## Using branches
+```
+git checkout dev                                # Go to dev
+git checkout -b NewFancyFeature                 # Make new branch
+[... work ...]                                  # Do some work
+git add -u                                      # Add all changed files to staging
+git commit -m "Completed new fancy feature."    # Make Commit
+git checkout dev                                # Go to dev
+git merge NewFancyFeature                       # Merge
+git checkout master                             # go to master
+git merge dev                                   # Merge dev into master for new release
+```
+
+![branching model](http://nvie.com/img/main-branches@2x.png)
+
+
+
 ### Fetching it from the internetz
 
 Usually we would create a repro on GitHub or Gitlab and then start working in it:
@@ -96,18 +114,6 @@ git branch --set-upstream-to=origin/dev dev
 
 
 
-## Using branches
-```
-git checkout dev                                # Go to dev
-git checkout -b NewFancyFeature                 # Make new branch
-[... work ...]                                  # Do some work
-git add -u                                      # Add all changed files to staging
-git commit -m "Completed new fancy feature."    # Make Commit
-git checkout dev                                # Go to dev
-git merge NewFancyFeature                       # Merge
-git checkout master                             # go to master
-git merge dev                                   # Merge dev into master for new release
-```
 
 
 ## More links
@@ -115,8 +121,6 @@ git merge dev                                   # Merge dev into master for new 
 Interactive and fun tutorial: https://try.github.io/
 
 Good introduction in smart usage of branches: http://nvie.com/posts/a-successful-git-branching-model/
-
-
 
 
 ### Markdown helps
