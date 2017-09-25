@@ -7,9 +7,9 @@ Git is a source control managment solution for multiple people.
 ## Branches, commits and pushing stuff
 
 ```
-git clone https://tbi-gitlab.dkfz.de/saary/gittutoria
-cd gittutorial
-git status
+git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
+cd gittutorial                                             # ...
+git status                                                 # see whats going on
 ```
 
 Whats the status of the git repository?
