@@ -10,6 +10,7 @@ Git is a source control managment solution for multiple people.
 git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
 cd gittutorial                                             # ...
 git status                                                 # see whats going on
+git log                                                    # see the history
 ```
 
 Whats the status of the git repository?
@@ -33,7 +34,7 @@ The *HEAD* is the position we are in the git graph.
 
 
 ```
-git checkout dev                                # go into the right branch
+git checkout -b dev                             # create branch 'dev'
 [.. work on some files...]                      # do normal work
 add newfile newfile2 newfile3                   # add the new and changed files
 # now we have many changes in staging
@@ -64,6 +65,7 @@ git push
 
 ## Using branches
 ```
+git branch                                      # see all branches
 git checkout dev                                # Go to dev
 git checkout -b NewFancyFeature                 # Make new branch
 [... work ...]                                  # Do some work
@@ -83,14 +85,16 @@ git merge dev                                   # Merge dev into master for new 
 
 
 
-## More links
+# Links
+
+Maybe the best explanation of git: https://www.sbf5.com/~cduan/technical/git/
 
 Interactive and fun tutorial: https://try.github.io/
 
 Good introduction in smart usage of branches: http://nvie.com/posts/a-successful-git-branching-model/
 
 
-### Markdown helps
+### Markdown helps to make documentation pretty
 Gitlab has its own markdown format. More information can be found here: https://docs.gitlab.com/ee/user/markdown.html
 
 
