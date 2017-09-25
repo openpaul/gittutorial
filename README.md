@@ -23,14 +23,14 @@ A git repository contains, among other things, the following:
 - A set of commit objects.
 - A set of references to commit objects, called heads.
 
-TYhe git workflow starts with files in the working directory. As
-soon they are changed or created can be added to the *staging* are. 
-They need to be added via `git add FILE` but not are
-part of a commit yet.
+The git workflow starts with files in the working directory. As
+soon they are changed or created they can be added to the *staging* area. 
+They are added via `git add FILE`.
 
 A *commit* is a snapshot of all *staged* files bundled together to form a useful 
-unit of change. It is created via `git commit -a -m "message"` after 
-files are added to staging.
+unit of change. It is created via `git commit -m "message"` after 
+files are added to staging. `git commit -a -m "message"` will add all changes 
+to the commit, this is usefull but migth not be what you want.
 
 The *HEAD* (caps!) is the position we are in the git graph.
 
