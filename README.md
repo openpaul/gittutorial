@@ -1,6 +1,6 @@
 # Git Tutorial
 
-[gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
+![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
 Git is a source control managment solution for multiple people.
 
