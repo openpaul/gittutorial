@@ -1,5 +1,7 @@
 # Git Tutorial
 
+[gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
+
 Git is a source control managment solution for multiple people.
 
 ## Branches, commits and pushing stuff
@@ -21,7 +23,14 @@ Whats the status of the git repository?
 
 ### Staging, index, commits
 
+Files in the *staging* stage are changed and added via `git add FILE` but not 
+part of a commit yet.
 
+A *commit* is the *staged* files bundled together to form a useful unit of 
+change. It is created via `git commit -m "message"` after files are added to 
+staging.
+
+The *index* is the 
 
 
 ### Fetching it from the internetz
