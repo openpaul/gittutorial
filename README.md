@@ -50,3 +50,32 @@ git fetch
 git branch --set-upstream-to=origin/dev dev
 ```
 
+
+
+
+## Using branches
+```
+git checkout dev                                # Go to dev
+git checkout -b NewFancyFeature                 # Make new branch
+[... work ...]                                  # Do some work
+git add -u                                      # Add all changed files to staging
+git commit -m "Completed new fancy feature."    # Make Commit
+git checkout dev                                # Go to dev
+git merge NewFancyFeature                       # Merge
+git checkout master                             # go to master
+git merge dev                                   # Merge dev into master for new release
+```
+
+
+## More links
+
+Interactive and fun tutorial: https://try.github.io/
+
+Good introduction in smart usage of branches: http://nvie.com/posts/a-successful-git-branching-model/
+
+
+
+
+### Markdown helps
+Gitlab has its own markdown format. More information can be found here: https://docs.gitlab.com/ee/user/markdown.html
+
