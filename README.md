@@ -4,7 +4,7 @@
 
 Git is a source control managment solution for multiple people.
 
-## Branches, commits and pushing stuff
+## Repository, branches, commits and pushing stuff around
 
 ```
 git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
@@ -16,16 +16,28 @@ git log                                                    # see the history
 Whats the status of the git repository?
 
 
-### Staging, index, commits
+### Definitions
 
-Files in the *staging* stage are changed and added via `git add FILE` but not 
+A git repository contains, among other things, the following:
+
+- A set of commit objects.
+- A set of references to commit objects, called heads.
+
+TYhe git workflow starts with files in the working directory. As
+soon they are changed or created can be added to the *staging* are. 
+They need to be added via `git add FILE` but not are
 part of a commit yet.
 
-A *commit* is the *staged* files bundled together to form a useful unit of 
-change. It is created via `git commit -m "message"` after files are added to 
-staging.
+A *commit* is a snapshot of all *staged* files bundled together to form a useful 
+unit of change. It is created via `git commit -a -m "message"` after 
+files are added to staging.
 
-The *HEAD* is the position we are in the git graph.
+The *HEAD* (caps!) is the position we are in the git graph.
+
+*head* (lowercase) refers to any one of the named heads in the repository (*branches*).
+
+See here for more and better information: https://www.sbf5.com/~cduan/technical/git/
+
 
 ![image](https://git-scm.com/book/en/v2/images/areas.png)
 
