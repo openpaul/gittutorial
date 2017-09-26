@@ -7,18 +7,23 @@ Git is a open source fast distributed version control system.
 
 ## Repository, branches, commits and pushing stuff around
 
+Make a repository on gitlab and clone that:
+```
+git clone https://url.de/repro
+cd repro
+```
+
+or if you have a folder locally that needs tracking:
+
 ```
 mkdir repro
 cd repro
 git init
 ```
-or
-```
-git clone https://url.de/repro
-cd repro
-```
+
 -----------------------------------
 
+Cloning this repository:
 
 ```
 git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
@@ -27,7 +32,7 @@ git status                                                 # see whats going on
 git log                                                    # see the history
 ```
 
-Whats the status of the git repository?
+
 
 
 ### Definitions
