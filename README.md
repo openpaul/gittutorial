@@ -2,9 +2,20 @@
 
 ![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
-Git is a source control managment solution for multiple people.
+Git is a open source fast distributed version control system.
 
 ## Repository, branches, commits and pushing stuff around
+
+```
+mkdir repro
+cd repro
+git init
+```
+or
+```
+git clone https://url.de/repro
+cd repro
+```
 
 ```
 git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
