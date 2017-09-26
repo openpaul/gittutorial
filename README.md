@@ -3,6 +3,7 @@
 ![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
 Git is a open source fast distributed version control system.
+-----------------------------------
 
 ## Repository, branches, commits and pushing stuff around
 
@@ -16,6 +17,8 @@ or
 git clone https://url.de/repro
 cd repro
 ```
+-----------------------------------
+
 
 ```
 git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
@@ -53,9 +56,13 @@ See here for more and better information: https://www.sbf5.com/~cduan/technical/
 ![image](https://git-scm.com/book/en/v2/images/areas.png)
 
 
+-----------------------------------
+
 ## Changing files
 [basic workflow](basicWorkflow.md)
 
+
+-----------------------------------
 
 
 # Links

@@ -30,7 +30,7 @@ add newfile newfile2 newfile3                   # add the new and changed files
 # now we have many changes in staging
 commit -m "I made many new files which do X"    # create a new commit
 # now we have a local commit
-*git pull*                                        # fetch from upstream just in case
+git pull                                        # fetch from upstream just in case
 # now we have the same information that was online
 git push
 # now the changes are online and
