@@ -1,3 +1,4 @@
+:test
 # Git Tutorial
 
 ![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
