@@ -1,5 +1,9 @@
 # Git Tutorial
 
+## Install Git first
+[Here are some installation tips](INSTALL.md)
+
+
 ![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
 Git is a open source fast distributed version control system.
