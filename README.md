@@ -1,22 +1,38 @@
 :test
 # Git Tutorial
 
-![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
+## Install Git first
+> [Here are some installation tips](INSTALL.md)
+
+### Why we use SCM
+
+[Just a fun comic explaining why we use source control management software](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
+
+
+
 
 Git is a open source fast distributed version control system.
+-----------------------------------
 
 ## Repository, branches, commits and pushing stuff around
+
+Make a repository on gitlab and clone that:
+```
+git clone https://url.de/repro
+cd repro
+```
+
+or if you have a folder locally that needs tracking:
 
 ```
 mkdir repro
 cd repro
 git init
 ```
-or
-```
-git clone https://url.de/repro
-cd repro
-```
+
+-----------------------------------
+
+Cloning this repository:
 
 ```
 git clone https://tbi-gitlab.dkfz.de/saary/gittutorial     # gitlab, github, ...
@@ -25,7 +41,7 @@ git status                                                 # see whats going on
 git log                                                    # see the history
 ```
 
-Whats the status of the git repository?
+
 
 
 ### Definitions
@@ -54,9 +70,27 @@ See here for more and better information: https://www.sbf5.com/~cduan/technical/
 ![image](https://git-scm.com/book/en/v2/images/areas.png)
 
 
+-----------------------------------
+
 ## Changing files
 [basic workflow](basicWorkflow.md)
 
+
+-----------------------------------
+## hands on
+Now you do something. 
+
+We want to fetch a repository from github. Create a new branch for development. Change some information and then submit a commit. 
+
+If any of you has a github account we can make a pull request to show how colaboration works (Talk to me if you want to do this.)
+
+### Task
+Clone http://github.com/openpaul/printmyname
+
+
+
+
+-----------------------------------
 
 
 # Links
