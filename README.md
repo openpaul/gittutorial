@@ -3,10 +3,12 @@
 ## Install Git first
 > [Here are some installation tips](INSTALL.md)
 
+### Why we use SCM
+
+[Just a fun comic explaining why we use source control management software](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
 
 
-![gitphdcomic](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
 Git is a open source fast distributed version control system.
 -----------------------------------
@@ -71,6 +73,20 @@ See here for more and better information: https://www.sbf5.com/~cduan/technical/
 
 ## Changing files
 [basic workflow](basicWorkflow.md)
+
+
+-----------------------------------
+## hands on
+Now you do something. 
+
+We want to fetch a repository from github. Create a new branch for development. Change some information and then submit a commit. 
+
+If any of you has a github account we can make a pull request to show how colaboration works (Talk to me if you want to do this.)
+
+### Task
+Clone http://github.com/openpaul/printmyname
+
+
 
 
 -----------------------------------
