@@ -96,10 +96,13 @@ Clone http://github.com/openpaul/printmyname
 
 Maybe the best explanation of git: https://www.sbf5.com/~cduan/technical/git/
 
+Technical talk: https://www.youtube.com/watch?v=dBSHLb1B8sw (Very good)
+
 Interactive and fun tutorial: https://try.github.io/
 
 Good introduction in smart usage of branches: http://nvie.com/posts/a-successful-git-branching-model/
 
+Basics: http://rogerdudler.github.io/git-guide/
 
 ### Markdown helps to make documentation pretty
 Gitlab has its own markdown format. More information can be found here: https://docs.gitlab.com/ee/user/markdown.html
