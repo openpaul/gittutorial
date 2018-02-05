@@ -1,4 +1,3 @@
-:test
 # Git Tutorial
 
 ## Install Git first
